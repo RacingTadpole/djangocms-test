@@ -35,11 +35,27 @@ TIME_ZONE = 'America/Chicago'
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'en-us'
 
+# this was not described at http://docs.django-cms.org/en/2.4.0/getting_started/tutorial.html
+# but at http://docs.django-cms.org/en/2.4.0/getting_started/configuration.html 
+CMS_LANGUAGES = {
+    1: [
+        {
+            'code': 'en',
+            'name': gettext('English'),
+            'public': True,
+            },
+        ],
+    'default': {
+        'fallbacks': ['en',],
+        'public': False,
+        }
+}
+
 LANGUAGES = [
     ('en', 'English'),
 ]
 
-SITE_ID = 1
+SITE_ID = 2
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
@@ -146,6 +162,7 @@ INSTALLED_APPS = (
     'south',
     'sekizai',
     'cms.plugins.text',
+    'sampletests',
 )
 
 # A sample logging configuration. The only tangible logging
