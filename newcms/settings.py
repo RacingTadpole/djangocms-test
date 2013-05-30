@@ -33,7 +33,7 @@ TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 # this was not described at http://docs.django-cms.org/en/2.4.0/getting_started/tutorial.html
 # but at http://docs.django-cms.org/en/2.4.0/getting_started/configuration.html 
