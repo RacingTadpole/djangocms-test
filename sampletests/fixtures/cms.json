@@ -1,6 +1,22 @@
 [
 {
   "pk": 1, 
+  "model": "sites.site", 
+  "fields": {
+    "domain": "example.com", 
+    "name": "example.com"
+  }
+},
+{
+  "pk": 2, 
+  "model": "sites.site", 
+  "fields": {
+    "domain": "example.net", 
+    "name": "Another Site"
+  }
+},
+{
+  "pk": 1, 
   "model": "cms.placeholder", 
   "fields": {
     "slot": "template_1_content", 
@@ -681,18 +697,58 @@
 },
 {
   "pk": 1, 
-  "model": "sites.site", 
+  "model": "text.text", 
   "fields": {
-    "domain": "example.com", 
-    "name": "example.com"
+    "body": "<p>My first text plugin.</p>"
   }
 },
 {
   "pk": 2, 
-  "model": "sites.site", 
+  "model": "text.text", 
   "fields": {
-    "domain": "example.net", 
-    "name": "Another Site"
+    "body": "<p>My first text plugin.</p>"
+  }
+},
+{
+  "pk": 3, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>A second page.</p>"
+  }
+},
+{
+  "pk": 4, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>A second page.</p>"
+  }
+},
+{
+  "pk": 5, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>The test page.</p>"
+  }
+},
+{
+  "pk": 6, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>The test page.</p>"
+  }
+},
+{
+  "pk": 7, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>Second site home.</p>"
+  }
+},
+{
+  "pk": 8, 
+  "model": "text.text", 
+  "fields": {
+    "body": "<p>Second site home.</p>"
   }
 }
 ]
