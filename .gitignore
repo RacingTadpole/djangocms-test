@@ -1,0 +1,9 @@
+sqlite*.db
+site_settings.*
+*.pyc
+*/*.pyc
+*/*/*.pyc
+.*project
+collectedstatic/*
+*/media/*
+logs/*
